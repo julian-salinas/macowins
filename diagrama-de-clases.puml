@@ -1,0 +1,93 @@
+@startuml macowins
+
+class Prenda {
+    - precioPropio
+    - tipo
+    - estado
+
+    + precio()
+}
+
+enum Tipo {
+    SACOS
+    PANTALONES
+    CAMISAS
+}
+
+' Relacion usa
+Prenda -[dashed]-> Tipo
+
+interface Estado {
+    + calcularPrecioPrenda(precio)
+}
+
+class Nueva implements Estado {
+    + calcularPrecioPrenda(precio)
+}
+
+class Promocion implements Estado {
+    - valorFijo
+
+    + calcularPrecioPrenda(precio)
+}
+
+class Liquidacion implements Estado {
+    + calcularPrecioPrenda(precio)
+}
+
+' Relacion implementa (Realización)
+Prenda --> "1" Estado
+
+class Venta {
+    - prendasVendidas
+    - fechaVenta
+    - medioDePago 
+    
+    + fechaVenta() 
+    + precioVenta() 
+    + gananciaDeLaVenta(prendaVendida)
+}
+
+class PrendaVendida {
+    - prenda
+    - cantidad
+
+    + prenda()   
+    + cantidad() 
+}
+
+' Relacion USA
+Venta -[dashed]-> PrendaVendida
+
+interface MedioDePago {
+    + calcularPrecioTotalVenta(prenda)
+}
+
+class Efectivo implements MedioDePago {
+    + calcularPrecioTotalVenta(prenda)
+}
+
+class Credito implements MedioDePago {
+    - cantidadDeCuotas
+    - coeficienteFijo
+
+    + calcularPrecioTotalVenta(precio)
+}
+
+' Relacion implementa (Realización)
+Venta --> "1" MedioDePago
+
+class Macowins {
+    - ventasHistoricas
+
+    + ventasHistoricas()
+    + calcularGananciaDeUnDia(dia) 
+}
+
+' Relacion Conoce
+Macowins --> "*" Venta
+
+' Relacion usa
+PrendaVendida -[dashed]-> "1" Prenda
+
+@enduml
