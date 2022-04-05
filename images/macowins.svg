@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="913px" preserveAspectRatio="none" style="width:718px;height:913px;background:#FFFFFF;" version="1.1" viewBox="0 0 718 913" width="718px" zoomAndPan="magnify"><defs><filter height="300%" id="f1jzd8bpidtrtk" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e73183ae97ca62d81f0bf19921e7c95e]
+class Prenda--><rect codeLine="2" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="103.3438" id="Prenda" style="stroke:#A80036;stroke-width:1.5;" width="86" x="168" y="511"/><ellipse cx="189.3" cy="527" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M192.0656,522.875 Q192.2219,522.6563 192.4094,522.5469 Q192.5969,522.4375 192.8156,522.4375 Q193.1906,522.4375 193.425,522.6953 Q193.6594,522.9531 193.6594,523.5625 L193.6594,525.0156 Q193.6594,525.625 193.425,525.8906 Q193.1906,526.1563 192.8156,526.1563 Q192.4719,526.1563 192.2688,525.9531 Q192.0656,525.7656 191.9563,525.25 Q191.9094,524.8906 191.7219,524.7031 Q191.3938,524.3281 190.7844,524.1094 Q190.175,523.8906 189.55,523.8906 Q188.7844,523.8906 188.1516,524.2188 Q187.5188,524.5469 187.0266,525.2969 Q186.5344,526.0469 186.5344,527.0781 L186.5344,528.1719 Q186.5344,529.4063 187.425,530.2266 Q188.3156,531.0469 189.9094,531.0469 Q190.8469,531.0469 191.5031,530.7969 Q191.8938,530.6406 192.3156,530.2031 Q192.5813,529.9375 192.7297,529.8594 Q192.8781,529.7813 193.0813,529.7813 Q193.4094,529.7813 193.6672,530.0391 Q193.925,530.2969 193.925,530.6406 Q193.925,530.9844 193.5813,531.3906 Q193.0813,531.9688 192.2844,532.2969 Q191.2063,532.75 189.9094,532.75 Q188.3938,532.75 187.1906,532.125 Q186.2063,531.625 185.5188,530.5547 Q184.8313,529.4844 184.8313,528.2031 L184.8313,527.0469 Q184.8313,525.7188 185.4484,524.5703 Q186.0656,523.4219 187.1594,522.8047 Q188.2531,522.1875 189.4875,522.1875 Q190.2219,522.1875 190.8703,522.3516 Q191.5188,522.5156 192.0656,522.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="204.7" y="531.9102">Prenda</text><line style="stroke:#A80036;stroke-width:1.5;" x1="169" x2="253" y1="543" y2="543"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="176" y="551"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="188" y="558.4189">precioPropio</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="176" y="564.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="188" y="572.2549">tipo</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="176" y="578.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="188" y="586.0908">estado</text><line style="stroke:#A80036;stroke-width:1.5;" x1="169" x2="253" y1="592.5078" y2="592.5078"/><ellipse cx="179" cy="603.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="188" y="607.9268">precio()</text><!--MD5=[eb4e2a40f0d210208f14ea4a2d93f8ee]
+class Tipo--><rect codeLine="10" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="89.5078" id="Tipo" style="stroke:#A80036;stroke-width:1.5;" width="81" x="91.5" y="674"/><ellipse cx="117.75" cy="690" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M116.6094,690.7969 L116.6094,693.2969 L120.9375,693.2969 L120.9375,692.375 Q120.9375,691.7656 121.1797,691.5 Q121.4219,691.2344 121.7969,691.2344 Q122.1719,691.2344 122.4063,691.5 Q122.6406,691.7656 122.6406,692.375 L122.6406,695 L114.6406,695 Q114.0156,695 113.7578,694.7656 Q113.5,694.5313 113.5,694.1406 Q113.5,693.7656 113.7656,693.5313 Q114.0313,693.2969 114.6406,693.2969 L114.9063,693.2969 L114.9063,686.6406 L114.6406,686.6406 Q114.0156,686.6406 113.7578,686.4063 Q113.5,686.1719 113.5,685.7813 Q113.5,685.4063 113.7578,685.1719 Q114.0156,684.9375 114.6406,684.9375 L122.2656,684.9375 L122.2656,687.5313 Q122.2656,688.1406 122.0391,688.3984 Q121.8125,688.6563 121.4219,688.6563 Q121.0469,688.6563 120.8125,688.3984 Q120.5781,688.1406 120.5781,687.5313 L120.5781,686.6406 L116.6094,686.6406 L116.6094,689.0938 L118.0938,689.0938 Q118.0938,688.4375 118.2188,688.25 Q118.4844,687.8438 118.9531,687.8438 Q119.3281,687.8438 119.5625,688.1016 Q119.7969,688.3594 119.7969,688.9688 L119.7969,690.9375 Q119.7969,691.4844 119.6719,691.6719 Q119.4063,692.0625 118.9531,692.0625 Q118.4844,692.0625 118.2188,691.6563 Q118.0938,691.4688 118.0938,690.7969 L116.6094,690.7969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="24" x="134.25" y="694.9102">Tipo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="92.5" x2="171.5" y1="706" y2="706"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="97.5" y="721.4189">SACOS</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="97.5" y="735.2549">PANTALONES</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="97.5" y="749.0908">CAMISAS</text><line style="stroke:#A80036;stroke-width:1.5;" x1="92.5" x2="171.5" y1="755.5078" y2="755.5078"/><!--MD5=[d8933eb2ae217ae3c21bf6e2973c277f]
+class Estado--><rect codeLine="19" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="61.8359" id="Estado" style="stroke:#A80036;stroke-width:1.5;" width="166" x="208" y="688"/><ellipse cx="267.75" cy="704" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M268.7031,700.6406 L268.7031,707.2969 L270.4219,707.2969 Q271.0313,707.2969 271.2969,707.5313 Q271.5625,707.7656 271.5625,708.1563 Q271.5625,708.5313 271.2969,708.7656 Q271.0313,709 270.4219,709 L265.2813,709 Q264.6719,709 264.4063,708.7656 Q264.1406,708.5313 264.1406,708.1406 Q264.1406,707.7656 264.4063,707.5313 Q264.6719,707.2969 265.2813,707.2969 L267,707.2969 L267,700.6406 L265.2813,700.6406 Q264.6719,700.6406 264.4063,700.4063 Q264.1406,700.1719 264.1406,699.7813 Q264.1406,699.4063 264.4063,699.1719 Q264.6719,698.9375 265.2813,698.9375 L270.4219,698.9375 Q271.0313,698.9375 271.2969,699.1719 Q271.5625,699.4063 271.5625,699.7813 Q271.5625,700.1719 271.2969,700.4063 Q271.0313,700.6406 270.4219,700.6406 L268.7031,700.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="288.25" y="708.9102">Estado</text><line style="stroke:#A80036;stroke-width:1.5;" x1="209" x2="373" y1="720" y2="720"/><line style="stroke:#A80036;stroke-width:1.5;" x1="209" x2="373" y1="728" y2="728"/><ellipse cx="219" cy="739" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="228" y="743.4189">calcularPrecioPrenda(precio)</text><!--MD5=[4cf58a5439fa7dbd22453247bbd4c595]
+class Nueva--><rect codeLine="23" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="61.8359" id="Nueva" style="stroke:#A80036;stroke-width:1.5;" width="166" x="7" y="831"/><ellipse cx="68.25" cy="847" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M71.0156,842.875 Q71.1719,842.6563 71.3594,842.5469 Q71.5469,842.4375 71.7656,842.4375 Q72.1406,842.4375 72.375,842.6953 Q72.6094,842.9531 72.6094,843.5625 L72.6094,845.0156 Q72.6094,845.625 72.375,845.8906 Q72.1406,846.1563 71.7656,846.1563 Q71.4219,846.1563 71.2188,845.9531 Q71.0156,845.7656 70.9063,845.25 Q70.8594,844.8906 70.6719,844.7031 Q70.3438,844.3281 69.7344,844.1094 Q69.125,843.8906 68.5,843.8906 Q67.7344,843.8906 67.1016,844.2188 Q66.4688,844.5469 65.9766,845.2969 Q65.4844,846.0469 65.4844,847.0781 L65.4844,848.1719 Q65.4844,849.4063 66.375,850.2266 Q67.2656,851.0469 68.8594,851.0469 Q69.7969,851.0469 70.4531,850.7969 Q70.8438,850.6406 71.2656,850.2031 Q71.5313,849.9375 71.6797,849.8594 Q71.8281,849.7813 72.0313,849.7813 Q72.3594,849.7813 72.6172,850.0391 Q72.875,850.2969 72.875,850.6406 Q72.875,850.9844 72.5313,851.3906 Q72.0313,851.9688 71.2344,852.2969 Q70.1563,852.75 68.8594,852.75 Q67.3438,852.75 66.1406,852.125 Q65.1563,851.625 64.4688,850.5547 Q63.7813,849.4844 63.7813,848.2031 L63.7813,847.0469 Q63.7813,845.7188 64.3984,844.5703 Q65.0156,843.4219 66.1094,842.8047 Q67.2031,842.1875 68.4375,842.1875 Q69.1719,842.1875 69.8203,842.3516 Q70.4688,842.5156 71.0156,842.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="88.75" y="851.9102">Nueva</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="172" y1="863" y2="863"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="172" y1="871" y2="871"/><ellipse cx="18" cy="882" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="27" y="886.4189">calcularPrecioPrenda(precio)</text><!--MD5=[73ad001b98dd01dedc7aab92789b3152]
+class Promocion--><rect codeLine="27" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="75.6719" id="Promocion" style="stroke:#A80036;stroke-width:1.5;" width="166" x="208" y="824"/><ellipse cx="256.75" cy="840" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M259.5156,835.875 Q259.6719,835.6563 259.8594,835.5469 Q260.0469,835.4375 260.2656,835.4375 Q260.6406,835.4375 260.875,835.6953 Q261.1094,835.9531 261.1094,836.5625 L261.1094,838.0156 Q261.1094,838.625 260.875,838.8906 Q260.6406,839.1563 260.2656,839.1563 Q259.9219,839.1563 259.7188,838.9531 Q259.5156,838.7656 259.4063,838.25 Q259.3594,837.8906 259.1719,837.7031 Q258.8438,837.3281 258.2344,837.1094 Q257.625,836.8906 257,836.8906 Q256.2344,836.8906 255.6016,837.2188 Q254.9688,837.5469 254.4766,838.2969 Q253.9844,839.0469 253.9844,840.0781 L253.9844,841.1719 Q253.9844,842.4063 254.875,843.2266 Q255.7656,844.0469 257.3594,844.0469 Q258.2969,844.0469 258.9531,843.7969 Q259.3438,843.6406 259.7656,843.2031 Q260.0313,842.9375 260.1797,842.8594 Q260.3281,842.7813 260.5313,842.7813 Q260.8594,842.7813 261.1172,843.0391 Q261.375,843.2969 261.375,843.6406 Q261.375,843.9844 261.0313,844.3906 Q260.5313,844.9688 259.7344,845.2969 Q258.6563,845.75 257.3594,845.75 Q255.8438,845.75 254.6406,845.125 Q253.6563,844.625 252.9688,843.5547 Q252.2813,842.4844 252.2813,841.2031 L252.2813,840.0469 Q252.2813,838.7188 252.8984,837.5703 Q253.5156,836.4219 254.6094,835.8047 Q255.7031,835.1875 256.9375,835.1875 Q257.6719,835.1875 258.3203,835.3516 Q258.9688,835.5156 259.5156,835.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="277.25" y="844.9102">Promocion</text><line style="stroke:#A80036;stroke-width:1.5;" x1="209" x2="373" y1="856" y2="856"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="216" y="864"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="228" y="871.4189">valorFijo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="209" x2="373" y1="877.8359" y2="877.8359"/><ellipse cx="219" cy="888.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="228" y="893.2549">calcularPrecioPrenda(precio)</text><!--MD5=[2d551515c9cc00b1c93a49a14aad6db7]
+class Liquidacion--><rect codeLine="33" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="61.8359" id="Liquidacion" style="stroke:#A80036;stroke-width:1.5;" width="166" x="409" y="831"/><ellipse cx="455.75" cy="847" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M458.5156,842.875 Q458.6719,842.6563 458.8594,842.5469 Q459.0469,842.4375 459.2656,842.4375 Q459.6406,842.4375 459.875,842.6953 Q460.1094,842.9531 460.1094,843.5625 L460.1094,845.0156 Q460.1094,845.625 459.875,845.8906 Q459.6406,846.1563 459.2656,846.1563 Q458.9219,846.1563 458.7188,845.9531 Q458.5156,845.7656 458.4063,845.25 Q458.3594,844.8906 458.1719,844.7031 Q457.8438,844.3281 457.2344,844.1094 Q456.625,843.8906 456,843.8906 Q455.2344,843.8906 454.6016,844.2188 Q453.9688,844.5469 453.4766,845.2969 Q452.9844,846.0469 452.9844,847.0781 L452.9844,848.1719 Q452.9844,849.4063 453.875,850.2266 Q454.7656,851.0469 456.3594,851.0469 Q457.2969,851.0469 457.9531,850.7969 Q458.3438,850.6406 458.7656,850.2031 Q459.0313,849.9375 459.1797,849.8594 Q459.3281,849.7813 459.5313,849.7813 Q459.8594,849.7813 460.1172,850.0391 Q460.375,850.2969 460.375,850.6406 Q460.375,850.9844 460.0313,851.3906 Q459.5313,851.9688 458.7344,852.2969 Q457.6563,852.75 456.3594,852.75 Q454.8438,852.75 453.6406,852.125 Q452.6563,851.625 451.9688,850.5547 Q451.2813,849.4844 451.2813,848.2031 L451.2813,847.0469 Q451.2813,845.7188 451.8984,844.5703 Q452.5156,843.4219 453.6094,842.8047 Q454.7031,842.1875 455.9375,842.1875 Q456.6719,842.1875 457.3203,842.3516 Q457.9688,842.5156 458.5156,842.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="476.25" y="851.9102">Liquidacion</text><line style="stroke:#A80036;stroke-width:1.5;" x1="410" x2="574" y1="863" y2="863"/><line style="stroke:#A80036;stroke-width:1.5;" x1="410" x2="574" y1="871" y2="871"/><ellipse cx="420" cy="882" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="429" y="886.4189">calcularPrecioPrenda(precio)</text><!--MD5=[fe4478d9c9a369b28097141e000aa656]
+class Venta--><rect codeLine="40" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="131.0156" id="Venta" style="stroke:#A80036;stroke-width:1.5;" width="206" x="202" y="157"/><ellipse cx="285.25" cy="173" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M288.0156,168.875 Q288.1719,168.6563 288.3594,168.5469 Q288.5469,168.4375 288.7656,168.4375 Q289.1406,168.4375 289.375,168.6953 Q289.6094,168.9531 289.6094,169.5625 L289.6094,171.0156 Q289.6094,171.625 289.375,171.8906 Q289.1406,172.1563 288.7656,172.1563 Q288.4219,172.1563 288.2188,171.9531 Q288.0156,171.7656 287.9063,171.25 Q287.8594,170.8906 287.6719,170.7031 Q287.3438,170.3281 286.7344,170.1094 Q286.125,169.8906 285.5,169.8906 Q284.7344,169.8906 284.1016,170.2188 Q283.4688,170.5469 282.9766,171.2969 Q282.4844,172.0469 282.4844,173.0781 L282.4844,174.1719 Q282.4844,175.4063 283.375,176.2266 Q284.2656,177.0469 285.8594,177.0469 Q286.7969,177.0469 287.4531,176.7969 Q287.8438,176.6406 288.2656,176.2031 Q288.5313,175.9375 288.6797,175.8594 Q288.8281,175.7813 289.0313,175.7813 Q289.3594,175.7813 289.6172,176.0391 Q289.875,176.2969 289.875,176.6406 Q289.875,176.9844 289.5313,177.3906 Q289.0313,177.9688 288.2344,178.2969 Q287.1563,178.75 285.8594,178.75 Q284.3438,178.75 283.1406,178.125 Q282.1563,177.625 281.4688,176.5547 Q280.7813,175.4844 280.7813,174.2031 L280.7813,173.0469 Q280.7813,171.7188 281.3984,170.5703 Q282.0156,169.4219 283.1094,168.8047 Q284.2031,168.1875 285.4375,168.1875 Q286.1719,168.1875 286.8203,168.3516 Q287.4688,168.5156 288.0156,168.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="305.75" y="177.9102">Venta</text><line style="stroke:#A80036;stroke-width:1.5;" x1="203" x2="407" y1="189" y2="189"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="210" y="197"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="222" y="204.4189">prendasVendidas</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="210" y="210.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="222" y="218.2549">fechaVenta</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="210" y="224.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="222" y="232.0908">medioDePago</text><line style="stroke:#A80036;stroke-width:1.5;" x1="203" x2="407" y1="238.5078" y2="238.5078"/><ellipse cx="213" cy="249.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="222" y="253.9268">fechaVenta()</text><ellipse cx="213" cy="263.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="222" y="267.7627">precioVenta()</text><ellipse cx="213" cy="277.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="222" y="281.5986">gananciaDeLaVenta(prendaVendida)</text><!--MD5=[96c64c63bab412796b87af575cdbb6b4]
+class PrendaVendida--><rect codeLine="50" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="103.3438" id="PrendaVendida" style="stroke:#A80036;stroke-width:1.5;" width="117" x="152.5" y="348"/><ellipse cx="167.5" cy="364" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M170.2656,359.875 Q170.4219,359.6563 170.6094,359.5469 Q170.7969,359.4375 171.0156,359.4375 Q171.3906,359.4375 171.625,359.6953 Q171.8594,359.9531 171.8594,360.5625 L171.8594,362.0156 Q171.8594,362.625 171.625,362.8906 Q171.3906,363.1563 171.0156,363.1563 Q170.6719,363.1563 170.4688,362.9531 Q170.2656,362.7656 170.1563,362.25 Q170.1094,361.8906 169.9219,361.7031 Q169.5938,361.3281 168.9844,361.1094 Q168.375,360.8906 167.75,360.8906 Q166.9844,360.8906 166.3516,361.2188 Q165.7188,361.5469 165.2266,362.2969 Q164.7344,363.0469 164.7344,364.0781 L164.7344,365.1719 Q164.7344,366.4063 165.625,367.2266 Q166.5156,368.0469 168.1094,368.0469 Q169.0469,368.0469 169.7031,367.7969 Q170.0938,367.6406 170.5156,367.2031 Q170.7813,366.9375 170.9297,366.8594 Q171.0781,366.7813 171.2813,366.7813 Q171.6094,366.7813 171.8672,367.0391 Q172.125,367.2969 172.125,367.6406 Q172.125,367.9844 171.7813,368.3906 Q171.2813,368.9688 170.4844,369.2969 Q169.4063,369.75 168.1094,369.75 Q166.5938,369.75 165.3906,369.125 Q164.4063,368.625 163.7188,367.5547 Q163.0313,366.4844 163.0313,365.2031 L163.0313,364.0469 Q163.0313,362.7188 163.6484,361.5703 Q164.2656,360.4219 165.3594,359.8047 Q166.4531,359.1875 167.6875,359.1875 Q168.4219,359.1875 169.0703,359.3516 Q169.7188,359.5156 170.2656,359.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="181.5" y="368.9102">PrendaVendida</text><line style="stroke:#A80036;stroke-width:1.5;" x1="153.5" x2="268.5" y1="380" y2="380"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="160.5" y="388"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="172.5" y="395.4189">prenda</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="160.5" y="401.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="172.5" y="409.2549">cantidad</text><line style="stroke:#A80036;stroke-width:1.5;" x1="153.5" x2="268.5" y1="415.6719" y2="415.6719"/><ellipse cx="163.5" cy="426.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="172.5" y="431.0908">prenda()</text><ellipse cx="163.5" cy="440.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="172.5" y="444.9268">cantidad()</text><!--MD5=[6038f431f304fdc4688a68011e071766]
+class MedioDePago--><rect codeLine="61" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="61.8359" id="MedioDePago" style="stroke:#A80036;stroke-width:1.5;" width="188" x="305" y="368.5"/><ellipse cx="355.75" cy="384.5" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M356.7031,381.1406 L356.7031,387.7969 L358.4219,387.7969 Q359.0313,387.7969 359.2969,388.0313 Q359.5625,388.2656 359.5625,388.6563 Q359.5625,389.0313 359.2969,389.2656 Q359.0313,389.5 358.4219,389.5 L353.2813,389.5 Q352.6719,389.5 352.4063,389.2656 Q352.1406,389.0313 352.1406,388.6406 Q352.1406,388.2656 352.4063,388.0313 Q352.6719,387.7969 353.2813,387.7969 L355,387.7969 L355,381.1406 L353.2813,381.1406 Q352.6719,381.1406 352.4063,380.9063 Q352.1406,380.6719 352.1406,380.2813 Q352.1406,379.9063 352.4063,379.6719 Q352.6719,379.4375 353.2813,379.4375 L358.4219,379.4375 Q359.0313,379.4375 359.2969,379.6719 Q359.5625,379.9063 359.5625,380.2813 Q359.5625,380.6719 359.2969,380.9063 Q359.0313,381.1406 358.4219,381.1406 L356.7031,381.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="78" x="376.25" y="389.4102">MedioDePago</text><line style="stroke:#A80036;stroke-width:1.5;" x1="306" x2="492" y1="400.5" y2="400.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="306" x2="492" y1="408.5" y2="408.5"/><ellipse cx="316" cy="419.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="325" y="423.9189">calcularPrecioTotalVenta(prenda)</text><!--MD5=[22abb8d09660d841b10e07ca773ea292]
+class Efectivo--><rect codeLine="65" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="61.8359" id="Efectivo" style="stroke:#A80036;stroke-width:1.5;" width="188" x="297" y="531.5"/><ellipse cx="365.75" cy="547.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M368.5156,543.375 Q368.6719,543.1563 368.8594,543.0469 Q369.0469,542.9375 369.2656,542.9375 Q369.6406,542.9375 369.875,543.1953 Q370.1094,543.4531 370.1094,544.0625 L370.1094,545.5156 Q370.1094,546.125 369.875,546.3906 Q369.6406,546.6563 369.2656,546.6563 Q368.9219,546.6563 368.7188,546.4531 Q368.5156,546.2656 368.4063,545.75 Q368.3594,545.3906 368.1719,545.2031 Q367.8438,544.8281 367.2344,544.6094 Q366.625,544.3906 366,544.3906 Q365.2344,544.3906 364.6016,544.7188 Q363.9688,545.0469 363.4766,545.7969 Q362.9844,546.5469 362.9844,547.5781 L362.9844,548.6719 Q362.9844,549.9063 363.875,550.7266 Q364.7656,551.5469 366.3594,551.5469 Q367.2969,551.5469 367.9531,551.2969 Q368.3438,551.1406 368.7656,550.7031 Q369.0313,550.4375 369.1797,550.3594 Q369.3281,550.2813 369.5313,550.2813 Q369.8594,550.2813 370.1172,550.5391 Q370.375,550.7969 370.375,551.1406 Q370.375,551.4844 370.0313,551.8906 Q369.5313,552.4688 368.7344,552.7969 Q367.6563,553.25 366.3594,553.25 Q364.8438,553.25 363.6406,552.625 Q362.6563,552.125 361.9688,551.0547 Q361.2813,549.9844 361.2813,548.7031 L361.2813,547.5469 Q361.2813,546.2188 361.8984,545.0703 Q362.5156,543.9219 363.6094,543.3047 Q364.7031,542.6875 365.9375,542.6875 Q366.6719,542.6875 367.3203,542.8516 Q367.9688,543.0156 368.5156,543.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="386.25" y="552.4102">Efectivo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="298" x2="484" y1="563.5" y2="563.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="298" x2="484" y1="571.5" y2="571.5"/><ellipse cx="308" cy="582.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="317" y="586.9189">calcularPrecioTotalVenta(prenda)</text><!--MD5=[e00418b9dd01622d20b74ac2b8dd6ff7]
+class Credito--><rect codeLine="69" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="89.5078" id="Credito" style="stroke:#A80036;stroke-width:1.5;" width="184" x="520" y="517.5"/><ellipse cx="587.75" cy="533.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M590.5156,529.375 Q590.6719,529.1563 590.8594,529.0469 Q591.0469,528.9375 591.2656,528.9375 Q591.6406,528.9375 591.875,529.1953 Q592.1094,529.4531 592.1094,530.0625 L592.1094,531.5156 Q592.1094,532.125 591.875,532.3906 Q591.6406,532.6563 591.2656,532.6563 Q590.9219,532.6563 590.7188,532.4531 Q590.5156,532.2656 590.4063,531.75 Q590.3594,531.3906 590.1719,531.2031 Q589.8438,530.8281 589.2344,530.6094 Q588.625,530.3906 588,530.3906 Q587.2344,530.3906 586.6016,530.7188 Q585.9688,531.0469 585.4766,531.7969 Q584.9844,532.5469 584.9844,533.5781 L584.9844,534.6719 Q584.9844,535.9063 585.875,536.7266 Q586.7656,537.5469 588.3594,537.5469 Q589.2969,537.5469 589.9531,537.2969 Q590.3438,537.1406 590.7656,536.7031 Q591.0313,536.4375 591.1797,536.3594 Q591.3281,536.2813 591.5313,536.2813 Q591.8594,536.2813 592.1172,536.5391 Q592.375,536.7969 592.375,537.1406 Q592.375,537.4844 592.0313,537.8906 Q591.5313,538.4688 590.7344,538.7969 Q589.6563,539.25 588.3594,539.25 Q586.8438,539.25 585.6406,538.625 Q584.6563,538.125 583.9688,537.0547 Q583.2813,535.9844 583.2813,534.7031 L583.2813,533.5469 Q583.2813,532.2188 583.8984,531.0703 Q584.5156,529.9219 585.6094,529.3047 Q586.7031,528.6875 587.9375,528.6875 Q588.6719,528.6875 589.3203,528.8516 Q589.9688,529.0156 590.5156,529.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="608.25" y="538.4102">Credito</text><line style="stroke:#A80036;stroke-width:1.5;" x1="521" x2="703" y1="549.5" y2="549.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="528" y="557.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="540" y="564.9189">cantidadDeCuotas</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="528" y="571.3359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="540" y="578.7549">coeficienteFijo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="521" x2="703" y1="585.1719" y2="585.1719"/><ellipse cx="531" cy="596.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="540" y="600.5908">calcularPrecioTotalVenta(precio)</text><!--MD5=[3199a0830ff6a35e63bfb10e93fa6d35]
+class Macowins--><rect codeLine="79" fill="#FEFECE" filter="url(#f1jzd8bpidtrtk)" height="89.5078" id="Macowins" style="stroke:#A80036;stroke-width:1.5;" width="173" x="218.5" y="7"/><ellipse cx="273.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M276.0156,18.875 Q276.1719,18.6563 276.3594,18.5469 Q276.5469,18.4375 276.7656,18.4375 Q277.1406,18.4375 277.375,18.6953 Q277.6094,18.9531 277.6094,19.5625 L277.6094,21.0156 Q277.6094,21.625 277.375,21.8906 Q277.1406,22.1563 276.7656,22.1563 Q276.4219,22.1563 276.2188,21.9531 Q276.0156,21.7656 275.9063,21.25 Q275.8594,20.8906 275.6719,20.7031 Q275.3438,20.3281 274.7344,20.1094 Q274.125,19.8906 273.5,19.8906 Q272.7344,19.8906 272.1016,20.2188 Q271.4688,20.5469 270.9766,21.2969 Q270.4844,22.0469 270.4844,23.0781 L270.4844,24.1719 Q270.4844,25.4063 271.375,26.2266 Q272.2656,27.0469 273.8594,27.0469 Q274.7969,27.0469 275.4531,26.7969 Q275.8438,26.6406 276.2656,26.2031 Q276.5313,25.9375 276.6797,25.8594 Q276.8281,25.7813 277.0313,25.7813 Q277.3594,25.7813 277.6172,26.0391 Q277.875,26.2969 277.875,26.6406 Q277.875,26.9844 277.5313,27.3906 Q277.0313,27.9688 276.2344,28.2969 Q275.1563,28.75 273.8594,28.75 Q272.3438,28.75 271.1406,28.125 Q270.1563,27.625 269.4688,26.5547 Q268.7813,25.4844 268.7813,24.2031 L268.7813,23.0469 Q268.7813,21.7188 269.3984,20.5703 Q270.0156,19.4219 271.1094,18.8047 Q272.2031,18.1875 273.4375,18.1875 Q274.1719,18.1875 274.8203,18.3516 Q275.4688,18.5156 276.0156,18.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="293.75" y="27.9102">Macowins</text><line style="stroke:#A80036;stroke-width:1.5;" x1="219.5" x2="390.5" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="226.5" y="47"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="238.5" y="54.4189">ventasHistoricas</text><line style="stroke:#A80036;stroke-width:1.5;" x1="219.5" x2="390.5" y1="60.8359" y2="60.8359"/><ellipse cx="229.5" cy="71.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="238.5" y="76.2549">ventasHistoricas()</text><ellipse cx="229.5" cy="85.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="238.5" y="90.0908">calcularGananciaDeUnDia(dia)</text><!--MD5=[41b617dbe2da599883e0c523e8890ebf]
+link Prenda to Tipo--><path codeLine="17" d="M185.13,614.09 C176.12,631.71 166.04,651.43 157.09,668.92 " fill="none" id="Prenda-to-Tipo" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="154.6,673.79,162.2504,667.5874,156.8703,669.3351,155.1226,663.955,154.6,673.79" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f1367c045fe35bf17a584626da1f1f43]
+reverse link Estado to Nueva--><path d="M231.12,762 C199.59,784.12 161.65,810.74 133.05,830.8 " fill="none" id="Estado-backto-Nueva" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="227.49,756,247.88,750.25,235.53,767.46,227.49,756" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2a1fbeef1c47bd8a079f02f2909343f4]
+reverse link Estado to Promocion--><path d="M291,770.47 C291,788.06 291,807.46 291,823.77 " fill="none" id="Estado-backto-Promocion" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="284,770.25,291,750.25,298,770.25,284,770.25" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4a911394fbb304c8bbd15b7409e41cba]
+reverse link Estado to Liquidacion--><path d="M350.88,762 C382.41,784.12 420.35,810.74 448.95,830.8 " fill="none" id="Estado-backto-Liquidacion" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="346.47,767.46,334.12,750.25,354.51,756,346.47,767.46" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7597833ef457365d4065de8b92496264]
+link Prenda to Estado--><path codeLine="38" d="M237.19,614.09 C248.89,636.67 262.37,662.72 272.92,683.08 " fill="none" id="Prenda-to-Estado" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="275.26,687.6,274.6746,677.7686,272.9613,683.1597,267.5702,681.4464,275.26,687.6" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="264.2918" y="677.022">1</text><!--MD5=[f5dcb19621c37c0b6193af9dc472adf9]
+link Venta to PrendaVendida--><path codeLine="59" d="M270.26,288.17 C260.53,306.3 250.03,325.84 240.62,343.36 " fill="none" id="Venta-to-PrendaVendida" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="238.25,347.77,246.0411,341.7452,240.6222,343.3686,238.9988,337.9496,238.25,347.77" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[39af60dbf057b4d4f8c6ada902961d10]
+reverse link MedioDePago to Efectivo--><path d="M396.49,451.03 C395.18,477.4 393.62,508.79 392.5,531.35 " fill="none" id="MedioDePago-backto-Efectivo" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="389.51,450.41,397.5,430.78,403.49,451.11,389.51,450.41" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e0f1fd96a0102b65ca81c0316542e842]
+reverse link MedioDePago to Credito--><path d="M455.11,442.91 C485.46,465.85 522.91,494.16 553.61,517.37 " fill="none" id="MedioDePago-backto-Credito" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="450.8,448.43,439.06,430.78,459.24,437.26,450.8,448.43" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ff82c6f42ad940c9459f366f84d2805a]
+link Venta to MedioDePago--><path codeLine="77" d="M339.74,288.17 C353.5,313.8 368.78,342.24 380.38,363.83 " fill="none" id="Venta-to-MedioDePago" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="382.79,368.33,382.0659,358.5078,380.4289,363.9226,375.0141,362.2856,382.79,368.33" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="371.7248" y="357.7995">1</text><!--MD5=[b2702ab3fd3e938b833384698e6e32ad]
+link Macowins to Venta--><path codeLine="87" d="M305,97.27 C305,113.94 305,133.32 305,151.75 " fill="none" id="Macowins-to-Venta" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="305,156.92,309,147.92,305,151.92,301,147.92,305,156.92" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="299.7109" y="145.9269">*</text><!--MD5=[df3b1beae02353319008a53177550a52]
+link PrendaVendida to Prenda--><path codeLine="90" d="M211,451.44 C211,468.64 211,487.93 211,505.5 " fill="none" id="PrendaVendida-to-Prenda" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="211,510.89,215,501.89,211,505.89,207,501.89,211,510.89" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="203.5078" y="500.003">1</text><!--MD5=[c162c4dc36bc956d887e505a98a8aa34]
+@startuml macowins
+
+class Prenda {
+    - precioPropio
+    - tipo
+    - estado
+
+    + precio()
+}
+
+enum Tipo {
+    SACOS
+    PANTALONES
+    CAMISAS
+}
+
+' Relacion usa
+Prenda -[dashed]-> Tipo
+
+interface Estado {
+    + calcularPrecioPrenda(precio)
+}
+
+class Nueva implements Estado {
+    + calcularPrecioPrenda(precio)
+}
+
+class Promocion implements Estado {
+    - valorFijo
+
+    + calcularPrecioPrenda(precio)
+}
+
+class Liquidacion implements Estado {
+    + calcularPrecioPrenda(precio)
+}
+
+' Relacion implementa (Realización)
+Prenda - -> "1" Estado
+
+class Venta {
+    - prendasVendidas
+    - fechaVenta
+    - medioDePago 
+    
+    + fechaVenta() 
+    + precioVenta() 
+    + gananciaDeLaVenta(prendaVendida)
+}
+
+class PrendaVendida {
+    - prenda
+    - cantidad
+
+    + prenda()   
+    + cantidad() 
+}
+
+' Relacion USA
+Venta -[dashed]-> PrendaVendida
+
+interface MedioDePago {
+    + calcularPrecioTotalVenta(prenda)
+}
+
+class Efectivo implements MedioDePago {
+    + calcularPrecioTotalVenta(prenda)
+}
+
+class Credito implements MedioDePago {
+    - cantidadDeCuotas
+    - coeficienteFijo
+
+    + calcularPrecioTotalVenta(precio)
+}
+
+' Relacion implementa (Realización)
+Venta - -> "1" MedioDePago
+
+class Macowins {
+    - ventasHistoricas
+
+    + ventasHistoricas()
+    + calcularGananciaDeUnDia(dia) 
+}
+
+' Relacion Conoce
+Macowins - -> "*" Venta
+
+' Relacion usa
+PrendaVendida -[dashed]-> "1" Prenda
+
+@enduml
+
+@startuml macowins
+
+class Prenda {
+    - precioPropio
+    - tipo
+    - estado
+
+    + precio()
+}
+
+enum Tipo {
+    SACOS
+    PANTALONES
+    CAMISAS
+}
+
+Prenda -[dashed]-> Tipo
+
+interface Estado {
+    + calcularPrecioPrenda(precio)
+}
+
+class Nueva implements Estado {
+    + calcularPrecioPrenda(precio)
+}
+
+class Promocion implements Estado {
+    - valorFijo
+
+    + calcularPrecioPrenda(precio)
+}
+
+class Liquidacion implements Estado {
+    + calcularPrecioPrenda(precio)
+}
+
+Prenda - -> "1" Estado
+
+class Venta {
+    - prendasVendidas
+    - fechaVenta
+    - medioDePago 
+    
+    + fechaVenta() 
+    + precioVenta() 
+    + gananciaDeLaVenta(prendaVendida)
+}
+
+class PrendaVendida {
+    - prenda
+    - cantidad
+
+    + prenda()   
+    + cantidad() 
+}
+
+Venta -[dashed]-> PrendaVendida
+
+interface MedioDePago {
+    + calcularPrecioTotalVenta(prenda)
+}
+
+class Efectivo implements MedioDePago {
+    + calcularPrecioTotalVenta(prenda)
+}
+
+class Credito implements MedioDePago {
+    - cantidadDeCuotas
+    - coeficienteFijo
+
+    + calcularPrecioTotalVenta(precio)
+}
+
+Venta - -> "1" MedioDePago
+
+class Macowins {
+    - ventasHistoricas
+
+    + ventasHistoricas()
+    + calcularGananciaDeUnDia(dia) 
+}
+
+Macowins - -> "*" Venta
+
+PrendaVendida -[dashed]-> "1" Prenda
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 13:16:42 ART 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>
