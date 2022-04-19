@@ -77,13 +77,13 @@ class Venta {
         return fechaVenta
     }
 
-    method precioVenta() {
+    method gananciaTotalDeLaVenta() {
         return prendasVendidas
                 .forEach({ prendaVendida => self.gananciaDeLaVenta(prendaVendida) })
                 .sum()
     }
 
-    method gananciaDeLaVenta(prendaVendida) {
+    method gananciaDeUnaPrenda(prendaVendida) {
         precio = prendaVendida.prenda().precio()
         cantidad = prendaVendida.cantidad()
 
@@ -117,7 +117,7 @@ interface MedioDePago {
 
 class Efectivo implements MedioDePago {
     method calcularPrecioTotalVenta(prenda) {
-        return precio 
+        return prenda.precio() 
     }
 }
 
@@ -126,7 +126,7 @@ class Credito implements MedioDePago {
     var coeficienteFijo
 
     method calcularPrecioTotalVenta(precio) {
-        return cantidadDeCuotas * coeficienteFijo + precio * 0.01
+        return self.cantidadDeCuotas * self.coeficienteFijo + prenda.precio() * 0.01
     }
 }
 ```
@@ -145,7 +145,7 @@ class Macowins {
     method calcularGananciaDeUnDia(dia) {
         return self.ventasHistoricas
             .filter({ unaVenta => unaVenta.FechaVenta().equals(dia)})
-            .map({ unaVenta => unaVenta.gananciaDeLaVenta() })
+            .map({ unaVenta => unaVenta.gananciaTotalDeLaVenta() })
             .sum()
     }
 }
